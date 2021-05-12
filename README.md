@@ -1,0 +1,2 @@
+# pracToy
+go project practice

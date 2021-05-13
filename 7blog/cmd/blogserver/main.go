@@ -1,7 +1,7 @@
 package main
 
 import (
-	"7blog/cmd/myapp/router"
+	"7blog/cmd/blogserver/router"
 	"github.com/gin-gonic/gin"
 )
 

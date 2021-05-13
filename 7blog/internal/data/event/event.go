@@ -22,7 +22,12 @@ func events() ([]map[string]interface{}, error) {
 	// 	var temp string
 	// 	err = rows.Scan(&temp)
 	// }
-	result = append(result, map[string]interface{}{"id": 1, "event_name": "dancing competition"}, map[string]interface{}{"id": 1, "event_name": "singing competition"})
+	result = append(
+		result,
+		map[string]interface{}{
+			"id": 1, "event_name": "dancing competition"},
+		map[string]interface{}{
+			"id": 1, "event_name": "singing competition"})
 	return result, nil
 
 }

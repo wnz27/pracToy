@@ -1,7 +1,7 @@
 package router
 
 import (
-	"7blog/cmd/myapp/router/handler"
+	"7blog/cmd/blogserver/router/handler"
 	"github.com/gin-gonic/gin"
 )
 

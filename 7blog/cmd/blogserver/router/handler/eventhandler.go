@@ -3,7 +3,7 @@ package handler
 import (
 	"fmt"
 
-	"7blog/internal/myapp/event"
+	"7blog/internal/data/event"
 	"github.com/gin-gonic/gin"
 )
 

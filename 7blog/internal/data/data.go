@@ -7,6 +7,7 @@
 package data
 
 import (
+	"7blog/internal/biz"
 	"7blog/internal/conf"
 	"7blog/internal/data/event"
 	"github.com/google/wire"
@@ -19,6 +20,14 @@ var ProviderSet = wire.NewSet(NewData, event.Events)
 // Data .
 type Data struct {
 	// TODO warpped database client
+}
+
+func (d Data) CreateArticle(article *biz.Article) error {
+	panic("implement me")
+}
+
+func (d Data) UpdateArticle(article *biz.Article) error {
+	panic("implement me")
 }
 
 // NewData .
